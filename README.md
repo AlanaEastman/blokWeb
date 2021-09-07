@@ -36,15 +36,15 @@ responsive
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-https://www.theoldpeppermill.nl/
+https://devierbroers.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-The old peppermill (restaurant) homepagina
-<img src="images/eerstePaginaTopm.jpeg" width="375px" alt="homepagina">
+de vier broers (restaurant) homepagina
+<img src="images/vierBroersHome.jpeg" width="375px" alt="homepagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-the old peppermill menukaart
-<img src="images/tweedePaginaTopm.jpeg" width="375px" alt="menukaart">
+de vier broers menukaart
+<img src="images/vierBroersMenu.jpeg" width="375px" alt="menukaart">
  
 </details>
 
