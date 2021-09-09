@@ -22,7 +22,7 @@ Alana Eastman
 blauwe piste
 
 #### Je focus:
-responsive
+surface 
  
 </details>
 
