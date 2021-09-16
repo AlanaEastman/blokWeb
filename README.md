@@ -58,7 +58,7 @@ de vier broers menukaart
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -78,17 +78,17 @@ de vier broers menukaart
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Code is nooit mijn beste vak geweest dus naar verwachting moet ik hard werken om het bij te houden. Toch lukken de opdrachten over het algemeen wel en ik vind dat ik al een goede basis heb voor mijn eindopdracht. Uiteraard is het nog niet goed genoeg, maar ik merk dat ik al goed op weg ben. De opdrachten van de blauwe piste lukken bijna altijd. Als het niet in een keer lukt vraag ik het in de les aan de docent en dan snap ik het wel. Alhoewel een specifiek ding toepassen in een oefening, zoals positioneren of flexbox, redelijk goed gaat, vind ik het allemaal toepassen op mijn site toch best wel lastig. 0t
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
 | student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Hoe krijg ik   | Moet ik al een nav | ---          | ---              |
+| ons menu en    | kunnen stylen of   | en ik dit    | en dan ik dat    |
+| reserveren in  | krijgen wij daar   | dit wil ik zeker |
+| het midden?    | nog les over?      | ...          | ...              |
 
 
 ### Verslag van meeting
