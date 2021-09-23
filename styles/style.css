@@ -151,7 +151,6 @@ color:var(--white-color);
 
 h4 {
 color:var(--main-color);
-
 }
 
 p {
@@ -174,7 +173,6 @@ div {
   justify-content: center;
   flex-direction: column;
   background-color:var(--white-color);
- 
   }
   
 div img {
