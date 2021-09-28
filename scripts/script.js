@@ -1,10 +1,10 @@
-var hamburger = doucument.queryselector("section first-of-type button");
+var deButton = document.querySelector("nav button");
 
-hamburger.addEventListener("click", hamburgerMenuUit);
+deButton.addEventListener("click", toggleMenu);
 
-function hamburgerMenuUit(){
-
-
-hamburger.classlist.add("menuOpen");
-
+function toggleMenu(event) {
+  deNav = event.target.parentNode;
+  deNav.classList.toggle("toonMenu");
 }
+
+//Code van Sanne uit Codepen 
