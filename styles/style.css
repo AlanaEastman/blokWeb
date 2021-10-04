@@ -3,9 +3,9 @@
   box-sizing:border-box;  
 }
 
-/***
-ROOT 
-****/
+/****************************************************************************************************************************************
+Root
+*****************************************************************************************************************************************/
 :root {
 --main-color:#d0a35d;
 --dark-color:#0d272d;
@@ -27,9 +27,9 @@ body{
 
 
 
-/******
+/****************************************************************************************************************************************
 HEADER
-******/
+*****************************************************************************************************************************************/
 
 header {
   height: 412px;
@@ -39,14 +39,22 @@ header {
 }
 
 
-header img.logo {
+/**********************************************************************
+logo 
+***********************************************************************/
+  header a img:first-of-type {
+  position:fixed;
+  right: 40%;
+ 
+
   max-width: 50px;
   height: 50px;
  
   padding: 0;
   margin: 0 auto;
+  
 
-  z-index: 100;
+  z-index: 100000;
 }
 
 
@@ -66,6 +74,11 @@ header img {
   z-index: -1;
   }
 
+
+
+/**********************************************************************
+navigatie
+***********************************************************************/
 
   nav button {
     position: absolute;
@@ -114,21 +127,22 @@ header img {
   }
 
 
-  nav li:hover{
-    color:var(--white-color) ;
-  }
-
-
-  li.reserveerknop {
+  header nav a:first-of-type{
     display: flex;
     justify-content: center;
     align-items: center;
 
     height: 40px;
-    margin: 30px 0 10px;
+    margin: 60px 0 10px;
 
-    background-color:var(--main-color) ;
+    width: auto;
+
     color:var(--white-color); 
+    background-color:var(--main-color) ;  
+  }
+
+  nav li:hover{
+    color:var(--white-color) ;
   }
 
 
@@ -152,6 +166,10 @@ header img {
   /* code van Sanne via codepen -> https://codepen.io/alanaeastman/pen/VwWVdmG */
   
 
+/**********************************************************************
+tekst header
+***********************************************************************/
+
 h1 {
   position: absolute;
   top: 200px;
@@ -164,9 +182,25 @@ h1 {
   
   align-items: center;
   text-align: center;
+
+  animation-name: h1-animatie; 
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+  }
+
+  @keyframes h1-animatie {
+    0%, 90%{
+      opacity:0;
+      transform:translatey(100);
+    }
+    100%{
+      opacity: 1;
+      transform:translatey(0);
+    }
   }
   
-
+/* animatie met hulp van sannes code via codepen -> https://codepen.io/shooft/pen/ExXvOmx?editors=1100 en https://codepen.io/shooft/pen/zYzdMwO?editors=1100 */
   header p {
   position: absolute;
   top:300px;
@@ -209,6 +243,22 @@ h1 {
   }
 
 
+/**********************************************************************
+animatie h1
+***********************************************************************/
+/* @keyframes h1-animatie {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+section.h1-animatie:hover h1 {
+  animation-duration: 2s;
+  animation-delay: 2s;
+} */
 
 
 
@@ -217,17 +267,21 @@ h1 {
 
 
 
-/***
-MAIN
-****/
+
+
+/****************************************************************************************************************************************
+Main
+*****************************************************************************************************************************************/
 main {
   background-color:var(--dark-color);
   padding: 50px 33px;
   margin: 400px 0 0;
-
-
   
 }
+
+/**********************************************************************
+tekst main
+***********************************************************************/
 
 h2 {
   color:var(--white-color);
@@ -255,36 +309,113 @@ color:var(--white-color);
 font-size: 13px;
 }
 
+/**********************************************************************
+images index.html
+***********************************************************************/
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 50%;
   padding:33px 0 0;
   }
 
-main div:nth-of-type(1) img{
-  padding: 0 0 33px;
-}
-
-
-
-div {
+.index main section:first-of-type {
   display: flex;
   justify-content: center;
   flex-direction: column;
   background-color:var(--white-color);
+  margin: 0;
+  padding: 0;
   }
   
-div img {
+.index main section:first-of-type img {
+  padding: 0;
   width: 100%;
-  }
-  
-div h2 {
- color:var(--dark-color);
-  }
-  
+}
+
+.index main section:first-of-type h2 {
+  background-color:var(--dark-color);
+  margin: 33px;
+}  
+
+
+
+
+/*********************************************************************************************************************
+eerste section menukaart.html
+***********************************************************************************************************************/
+
+.menukaart section:first-of-type{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color:var(--white-color);
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.menukaart section:first-of-type h2{
+  background-color:var(--dark-color);
+  margin: 33px; 
+  height: 50px;
+}
+
+.menukaart section:first-of-type img{
+  padding: 0 0 33px;
+  width: 100%;
+}
+
+
+
+/*********************************************************************************************************************
+tweede section menukaart.html
+***********************************************************************************************************************/
+
+.menukaart section:nth-of-type(2){
+  background-color:var(--white-color);
+  margin: 33px 0;
+}
+
+
+.menukaart section:nth-of-type(2) h2{
+  background-color:var(--dark-color);
+  margin: 33px; 
+  height: 50px;
+}
+
+.menukaart section:nth-of-type(2) img{
+  padding: 0 0 33px;
+  width: 100%;
+}
+/*********************************************************************************************************************
+derde section menukaart.html
+***********************************************************************************************************************/
+
+.menukaart section:nth-of-type(3){
+  background-color:var(--white-color);
+  margin: 33px 0;
+}
+
+
+
+.menukaart section:nth-of-type(3) h2{
+  background-color:var(--dark-color);
+  margin: 33px;
+  height: 50px;
+}
+
+.menukaart section:nth-of-type(3) img{
+ 
+  padding: 0 0 33px;
+  width: 100%;
+}
+
+/**********************************************************************
+list items
+***********************************************************************/
 ul {
   list-style:none;
   margin: 0 0 30px;
@@ -295,10 +426,6 @@ ul {
 li > p {
   color:var(--dark-color);
   }
-img.menukaart {
-  width: 50%;
-
-}
 
 a {
   background-color:var(--main-color);
@@ -316,13 +443,9 @@ a {
 }
 
 
-
-
-
-
-/*****
-FOOTER
-******/
+/****************************************************************************************************************************************
+Footer
+*****************************************************************************************************************************************/
 
 
 footer {
