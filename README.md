@@ -223,10 +223,10 @@ Ondanks dat ben ik trots op mijn resultaat. Dit is overduidelijk de mooiste site
 <img src="images/3.homepage.PNG" width="375px" alt="homepagina 3">
 <img src="images/4.homepage.PNG" width="375px" alt="homepagina 4">
 
-<img src="images/1.menukaart.PNG" width="375px" alt="menukaart 1">
-<img src="images/2.menukaart.PNG" width="375px" alt="menukaart 2">
-<img src="images/3.menukaart.PNG" width="375px" alt="menukaart 3">
-<img src="images/menu.PNG" width="375px" alt="menukaart 4">
+<img src="images/5.menukaart.PNG" width="375px" alt="menukaart 1">
+<img src="images/6.menukaart.PNG" width="375px" alt="menukaart 2">
+<img src="images/7.menukaart.PNG" width="375px" alt="menukaart 3">
+<img src="images/8.menu.PNG" width="375px" alt="menukaart 4">
 
 
 
