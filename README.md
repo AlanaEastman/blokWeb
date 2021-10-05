@@ -44,7 +44,7 @@ de vier broers (restaurant) homepagina
 
 #### Screenshot(s) van de tweede pagina (small screen):
 de vier broers menukaart
-<img src="images/menuPagina.png" width="375px" alt="menukaart">
+<img src="images/menuPagina.PNG" width="375px" alt="menukaart">
  
 </details>
 
@@ -218,15 +218,15 @@ Ik had achter mijn logo een witte achtergrond geplaats die dan net zoals bij het
 Ondanks dat ben ik trots op mijn resultaat. Dit is overduidelijk de mooiste site die ik ooit heb gemaakt met html en css. 
 
 ### Screenshot(s)
-<img src="images/1.homepage.png" width="375px" alt="homepagina 1">
-<img src="images/2.homepage.png" width="375px" alt="homepagina 2">
-<img src="images/3.homepage.png" width="375px" alt="homepagina 3">
-<img src="images/4.homepage.png" width="375px" alt="homepagina 4">
+<img src="images/1.homepage.PNG" width="375px" alt="homepagina 1">
+<img src="images/2.homepage.PNG" width="375px" alt="homepagina 2">
+<img src="images/3.homepage.PNG" width="375px" alt="homepagina 3">
+<img src="images/4.homepage.PNG" width="375px" alt="homepagina 4">
 
-<img src="images/1.menukaart.png" width="375px" alt="menukaart 1">
-<img src="images/2.menukaart.png" width="375px" alt="menukaart 2">
-<img src="images/3.menukaart.png" width="375px" alt="menukaart 3">
-<img src="images/menu.png" width="375px" alt="menukaart 4">
+<img src="images/1.menukaart.PNG" width="375px" alt="menukaart 1">
+<img src="images/2.menukaart.PNG" width="375px" alt="menukaart 2">
+<img src="images/3.menukaart.PNG" width="375px" alt="menukaart 3">
+<img src="images/menu.PNG" width="375px" alt="menukaart 4">
 
 
 
