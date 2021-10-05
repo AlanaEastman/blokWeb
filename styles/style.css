@@ -39,14 +39,16 @@ header {
 /**********************************************************************
 logo 
 ***********************************************************************/
-  section:first-of-type a  {
+
+/* Eerste a die in een section staat die in de main staat */
+  header section:first-of-type a  {
     position:fixed;
     padding: 30px 100%;
     z-index: 10000;
     padding: 0;
   }
 
-  section:first-of-type a img {
+  header section:first-of-type a img {
   position:fixed;
   right: 40%;
   left: 40%;
@@ -155,9 +157,10 @@ nav li + li a {
   color:#A6A6A6;
 
   justify-content: left;
-  
   } 
+  
 
+/* De eerste a die in een li staat die komt na een li die in de nav staat */
 nav li a:hover {
   color:var(--white);
   }
@@ -353,6 +356,8 @@ main audio + p:first-of-type {
   border-color:var(--main-color);
   }
 
+/* De eerste p die komt na de main audio */
+
 /**********************************************************************
 tekst main
 ***********************************************************************/
@@ -439,7 +444,7 @@ transform: scale(1.2);
   margin: 33px;
 }  
 
-
+/* Spreek specifiek de index.html aan */
 
 
 
@@ -558,7 +563,7 @@ derde section menukaart.html
 
 
 
-
+/* Spreek specifiek de menukaart.html aan */
 
 
 
