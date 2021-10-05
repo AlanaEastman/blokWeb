@@ -209,11 +209,26 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Voor dit vak heb ik hard moeten werken. Door mijn geschiedenis met html en css was ik erg bang dat ik moeite zou hebben met dit vak. Helaas bleek dat ook waar te zijn. Ik heb geprobeerd altijd alle opdrachten te maken en mijn huiswerk goed bij te houden, en opzich ging het wel redelijk. Mijn grootste frustratie is als je denkt dat iets moet werken en dan werkt het niet. En wat ik ook probeer het blijft maar niet werken. 
+
+Ik heb mijn best gedaan om wat leuke animaties en extratjes toe te voegen. Vooral in de laatste week heeft dit vak mij redelijk wat stress opgeleverd. Ik vind dat ik mijn best heb gedaan en als ik meer tijd had was het misschien nog wel wat uitgebreider geweest. Soms vond ik het vak erg leuk, maar vaak vond ik het lastig en frustrerend. 
+
+Ik had achter mijn logo een witte achtergrond geplaats die dan net zoals bij het logo position:fixed was zodat je altijd het logo bleef zien. Een uur voor de eind oplevering werkte dat oppeens niet meer en dat soort dingen vind ik dus echt verschrikkelijk aan code. 
+
+Ondanks dat ben ik trots op mijn resultaat. Dit is overduidelijk de mooiste site die ik ooit heb gemaakt met html en css. 
 
 ### Screenshot(s)
+<img src="images/1.homepage.png" width="375px" alt="homepagina 1">
+<img src="images/2.homepage.png" width="375px" alt="homepagina 2">
+<img src="images/3.homepage.png" width="375px" alt="homepagina 3">
+<img src="images/4.homepage.png" width="375px" alt="homepagina 4">
 
-hier screenshot(s) van je eindresultaat
+<img src="images/1.menukaart.png" width="375px" alt="menukaart 1">
+<img src="images/2.menukaart.png" width="375px" alt="menukaart 2">
+<img src="images/3.menukaart.png" width="375px" alt="menukaart 3">
+<img src="images/menu.png" width="375px" alt="menukaart 4">
+
+
 
 </details>
 

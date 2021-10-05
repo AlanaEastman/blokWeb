@@ -42,7 +42,6 @@ logo
   section:first-of-type a  {
     position:fixed;
     padding: 30px 100%;
-    background-color:var(--white-color);
     z-index: 10000;
     padding: 0;
   }
@@ -52,15 +51,11 @@ logo
   right: 40%;
   left: 40%;
  
-
   max-width: 50px;
   height: 50px;
  
   padding: 0;
   margin: 0 auto;
-
-  background-color:var(--white-color);
-  
 
   z-index: 10001;
   }
