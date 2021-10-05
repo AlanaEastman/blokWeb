@@ -159,16 +159,16 @@ Toen ik de screanreader aanzetten begreep ik aan het begin echt niet hoe het wer
 Als je de screenreader aan zet zouden de toetsen uitgesproken moeten worden. Op je telefoon wordt alles voorgelezen als je door content heen gaat, maar op mijn laptop had ik dat niet. Dat zou wel standaard zo moeten zijn, niet een instelling die je zelf aan en uit kan zetten. 
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Er word veel content geskipt door een screenreader. Mijn h's p's en alttekst werd niet voorgelezen.  
+Toen ik ging testen las de screenreader alleen de links voor. Ik zou zelf niet weten hoe mijn h's en p's voorgelezen zouden moeten worden. Als ik hier meer tijd voor had gehad had ik daar graag nog extra onderzoek naar gedaan, want ik vind het best gek dat screenreaders zo ontoegankelijk zijn. Helaas heb ik voor deze opdracht maar beperkte tijd en ik vind code al lastig zat, dus ik heb er voor gekozen om mij hier niet verder in te verdiepen. 
 
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Het schokapparaatje was het vervelendste om mee te testen.
+Dit apparaat was niet alleen vervelend omdat het heel naar voelde, maar het beperkt je flink in je gebruik. Ik had geen controle meer over mijn hand en ik deed van alles dat helemaal niet de bedoeling was. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Ik heb nagedacht over wat hier de beste oplossingen voor zouden kunnen zijn. 
+
+Allereerst, veel grotere knoppen, want in een keer juist klikken als er zo'n "kleine" knop is is gewoon erg lastig. Ik denk niet dat een website standaard grote knoppen moet hebben. Dit zou in veel gevallen nuttige ruimte van de site in nemen. Ik had dit graag nog aangepast in mijn site dat je zelf de knop grootte kon aanpassen, maar ook daar heb ik helaas geen tijd meer voor.
 
 </details>
 
@@ -182,27 +182,21 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Mijn basiswebsite is zo goed als af, nu worddt het tijd om de surface laag toe te passen. Ik vind dit best wel spannend omdat ik dit nooit echt eerder heb gedaan en code is niet mijn beste vak. Ik hoop dat het allemaal gaat lukken voor het eindgesprek, maar als ik gewoon goed door werk ben ik er van overtuigd dat het moet lukken. Zelf heb ik nu niet zo veel vragen omdat ik nog niet begonnen ben met de surface maar de basiswebsite is zo goed als af dus daar heb ik geen vragen meer over. 
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+vraag 1:
+- Zijn de surface lagen die ik van plan ben om te doen goed of is er iets dat jullie af raden
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
-
+- De studentassistenten hebben gehoord wat mijn plannen waren en vonden dat ik leuke ideeën had. Dat betekend dat het nu tijd is om mij te focussen om de surface laag. 
+- De studentassistenten hebben ook even naar mijn code gekeken. Ik kreeg als commentaar dat ik redelijk veel classes had, dus die moest ik uit mijn code gaan halen. 
 </details>
 
 
@@ -234,8 +228,15 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. zoekbalk https://www.w3schools.com/howto/howto_css_searchbar.asp
+2. Code van codepen van Sanne ->https://codepen.io/alanaeastman/pen/BaZGxdO?editors=1010
+3. Audio van https://www.bensound.com
+4. //Code van Sanne uit Codepen voor Javascript ->https://codepen.io/alanaeastman/pen/BaZGxdO?editors=1010 -->
+5. https://codepen.io/shooft/pen/ExXvOmx?editors=1100
+6. https://codepen.io/shooft/pen/zYzdMwO?editors=1100 
+7. object-fit: cover; -> Geholpen door vasilis tijdens de les
+8. image in article in section -> Geholpen door broer
+
+
 
 </details>

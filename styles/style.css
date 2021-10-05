@@ -16,13 +16,10 @@ Root
 
 body{
   position: relative;
-  font-family: barlow condensed;
+  font-family: barlow condensed, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif , Arial, Helvetica, sans-serif;
   position: relative;
   margin: 0;
 }
-
-
-
 
 
 
@@ -39,11 +36,18 @@ header {
   margin: 0 0 50px;
 }
 
-
 /**********************************************************************
 logo 
 ***********************************************************************/
-  header a img:first-of-type {
+  section:first-of-type a  {
+    position:fixed;
+    padding: 30px 100%;
+    background-color:var(--white-color);
+    z-index: 10000;
+    padding: 0;
+  }
+
+  section:first-of-type a img {
   position:fixed;
   right: 40%;
   left: 40%;
@@ -58,9 +62,8 @@ logo
   background-color:var(--white-color);
   
 
-  z-index: 1000;
-}
-
+  z-index: 10001;
+  }
 
 header img {
   position: absolute;
@@ -80,12 +83,16 @@ header img {
 
 
 
+
+
+
+
+
 /**********************************************************************
 navigatie
 ***********************************************************************/
-
   nav button {
-    position: absolute;
+    position: fixed;
     top:5px;
     right:5px;
 
@@ -101,9 +108,8 @@ navigatie
     z-index: 5000;
   }
 
-
   nav ul {
-    position:absolute;
+    position: fixed;
     top:0;
     bottom:0;
     right:0;
@@ -118,8 +124,19 @@ navigatie
     z-index:4000;
   }
 
+  nav input {
+    width: 100%;
+    margin: 0 0 20px 0;
+    padding: 10px ;
 
-  nav li a {
+    border-radius: 10px;
+    border-width: 7px;
+    border-color:var(--main-color);
+    border-style:ridge;
+  }
+
+
+  nav li a{
     display: flex;
     justify-content: center;
     align-items: left;
@@ -144,37 +161,47 @@ nav li + li a {
 
   justify-content: left;
   
-} 
+  } 
 
 nav li a:hover {
   color:var(--white);
-}
+  }
  
-  nav li:hover{
-    color:var(--white-color) ;
+nav li:hover{
+  color:var(--white-color) ;
   }
 
 
-  nav button::before {
-    content:"\2630 "; /* hamburger */
-    display:inline-flex;
-    justify-content:center;
-    align-items:center;
+nav button::before {
+  content:"\2630 "; /* hamburger */
+  display:inline-flex;
+  justify-content:center;
+  align-items:center;
+  width:20px;
+  height:20px;
 
-    width:20px;
-    height:20px;
-
-    transform:scale(.75);
+  transform:scale(.75);
   }
 
   
-  nav.toonMenu ul {
-    transform:translatex(0);
-    
+nav.toonMenu ul {
+  transform:translatex(0);    
   }
 
   /* code van Sanne via codepen -> https://codepen.io/alanaeastman/pen/VwWVdmG */
   
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**********************************************************************
 tekst header
@@ -195,12 +222,8 @@ h1 {
   align-items: center;
   text-align: center;
 
-
-
   animation-name: h1-animatie; 
-  animation-duration: 4s;
-
-  
+  animation-duration: 4s; 
   }
 
   @keyframes h1-animatie {
@@ -223,7 +246,7 @@ h1 {
   }
   
 /* animatie met hulp van sannes code via codepen -> https://codepen.io/shooft/pen/ExXvOmx?editors=1100 en https://codepen.io/shooft/pen/zYzdMwO?editors=1100 */
-  header p {
+header p {
   position: absolute;
   top:380px;
   right:120px;
@@ -257,33 +280,36 @@ h1 {
   }
 
 
-  section:first-of-type{
+section:first-of-type{
   display: flex;
   justify-content: center;
   align-content: center;
-  flex-direction: row;
-
-  
+  flex-direction: row; 
   } 
 
   
-  section:first-of-type a { 
-
-  font-size: 16px;
-  width:100px;
-  height:40px;
-
-  
-
-  background-color:var(--main-color);
-  color:var(--white-color);
-    
-  text-align: center;
-  text-decoration: none;
-  }
 
  
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -305,8 +331,32 @@ main {
   background-color:var(--dark-color);
   padding: 50px 33px;
   margin: 400px 0 0;
-  
-}
+  }
+
+audio::-webkit-media-controls-enclosure {
+  position: absolute;
+  border-radius: 10px;
+  border-style: ridge;
+  border-width: 5px;
+  border-color:var(--dark-color) ;
+  background-color:var(--main-color)
+  }
+
+/* https://stackoverflow.com/questions/4126708/is-it-possible-to-style-html5-audio-tag */
+
+main audio + p:first-of-type {
+  background-color:var(--white-color);
+  color:var(--dark-color) ;
+
+  padding: 10px;
+  width: 300px;
+  margin: 0;
+
+  border-radius: 10px;
+  border-width: 7px;
+  border-style: ridge;
+  border-color:var(--main-color);
+  }
 
 /**********************************************************************
 tekst main
@@ -322,7 +372,7 @@ h2 {
 
 
 h3 {
-color:var(--white-color);
+  color:var(--white-color);
   display: flex;
   justify-content: center;
 
@@ -330,16 +380,26 @@ color:var(--white-color);
 }
 
 h4 {
-color:var(--main-color);
-}
+  color:var(--main-color);
+  }
 
 p {
-color:var(--white-color);
-font-size: 13px;
-}
+  color:var(--white-color);
+  font-size: 13px;
+  }
+
+
+
+
+
+
+
+
+
+
 
 /**********************************************************************
-images index.html
+index.html main section
 ***********************************************************************/
 
 img {
@@ -352,8 +412,7 @@ img {
 
 
 
-main section {
- 
+.index main section {
   position: relative;
   display: flex;
   justify-content: center;
@@ -362,23 +421,22 @@ main section {
   margin: 0;
   padding: 0;
   }
-main section article {
+
+
+  .index main section article {
   overflow: hidden;
- }
+  }
   
   
-main section img {
+ .index main section img {
   width: 100%;
   padding: 0;
   transition: 500ms;
 }
 
-main section img:hover{
+.index main section img:hover{
 transform: scale(1.2);
 }
-
-
-
 
 
 .index main section h2 {
@@ -389,11 +447,55 @@ transform: scale(1.2);
 
 
 
+
+
+
+
+
+
+
+
+/**********************************************************************
+menukaart.html main section
+***********************************************************************/
+
+.menukaart main section {
+ 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color:var(--white-color);
+  margin: 0;
+  padding: 0;
+  }
+  .menukaart main section article {
+  overflow: hidden;
+ }
+  
+  
+ .menukaart main section img {
+  width: 100%;
+  padding: 0;
+  transition: 500ms;
+  }
+
+.menukaart main section img:hover{
+  transform: scale(1.2);
+  }
+
+.menukaart main section h2 {
+  background-color:var(--dark-color);
+  margin: 33px;
+  }  
+
+
+
 /*********************************************************************************************************************
 eerste section menukaart.html
 ***********************************************************************************************************************/
 
-.menukaart section:first-of-type{
+.menukaart main section:first-of-type{
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -401,18 +503,18 @@ eerste section menukaart.html
   margin: 0;
   padding: 0;
  
-}
+  }
 
-.menukaart section:first-of-type h2{
+.menukaart main section:first-of-type h2{
   background-color:var(--dark-color);
   margin: 33px; 
   height: 50px;
-}
+  }
 
-.menukaart section:first-of-type img{
+.menukaart main section:first-of-type img{
   padding: 0 0 33px;
   width: 100%;
-}
+  }
 
 
 
@@ -423,19 +525,19 @@ tweede section menukaart.html
 .menukaart section:nth-of-type(2){
   background-color:var(--white-color);
   margin: 33px 0;
-}
+  }
 
 
 .menukaart section:nth-of-type(2) h2{
   background-color:var(--dark-color);
   margin: 33px; 
   height: 50px;
-}
+  }
 
 .menukaart section:nth-of-type(2) img{
   padding: 0 0 33px;
   width: 100%;
-}
+  }
 /*********************************************************************************************************************
 derde section menukaart.html
 ***********************************************************************************************************************/
@@ -443,7 +545,7 @@ derde section menukaart.html
 .menukaart section:nth-of-type(3){
   background-color:var(--white-color);
   margin: 33px 0;
-}
+  }
 
 
 
@@ -451,13 +553,23 @@ derde section menukaart.html
   background-color:var(--dark-color);
   margin: 33px;
   height: 50px;
-}
+  }
 
 .menukaart section:nth-of-type(3) img{
  
   padding: 0 0 33px;
   width: 100%;
-}
+  }
+
+
+
+
+
+
+
+
+
+
 
 /**********************************************************************
 list items
@@ -488,6 +600,15 @@ main a {
   text-align: center;
 }
 
+
+
+
+
+
+
+
+
+
 /******************************************************************************
 button
 *******************************************************************************/
@@ -498,7 +619,7 @@ button
   bottom: 5%;
   background-color: transparent;
 
-}
+  }
 
 .index main section + section p {
   background-color:var(--white-color) ;
@@ -506,14 +627,12 @@ button
   padding: 20px 80px;
   border-radius: 20px;
   font-size: 20px; 
-  transform: translateX(120%);
+  transform: translateX(150%);
 
   animation-name: p-animatie; 
   animation-duration: 10s;
-  animation-delay: 2s;
-
-  
-}
+  animation-delay: 2s;  
+  }
 
 .index main section + section a {
   display: flex;
@@ -529,9 +648,8 @@ button
   animation-name: a-animatie; 
   animation-duration: 10s;
   animation-delay: 2s;
-  transform: translateX(400%);
-
-}
+  transform: translateX(400%);  
+  }
 
 
   @keyframes p-animatie {
@@ -571,24 +689,35 @@ button
   }
 
 
-/* .index main section p.reserveer {
-  transform: translateX(0);
-}
 
-.index main section p.reserveer {
-  transform: translateX(0);
-} */
-/* .index main section + section.reserveerZichtbaar {
-  animation-duration: .3s;
-}
 
-.index main section + section.reserveerZichtbaar p {
-  animation-name: p-animatie;
-}
 
-.index main section + section.reserveerZichtbaar a {
-  animation-name: a-animatie;
-} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -602,14 +731,9 @@ button
 /****************************************************************************************************************************************
 Footer
 *****************************************************************************************************************************************/
-
-
 footer {
   padding: 0 33px;
   margin: 100px 0 ;
- 
-
-
 }
 
 H5 {
@@ -621,15 +745,10 @@ footer h2 {
   display: flex;
   justify-content: left;
 }
+
 footer p {
   color:var(--dark-color);
 }
-
-
-
-
-
-
 
 
 
